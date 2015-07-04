@@ -1,0 +1,14 @@
+name: NewSurvivalGames
+main: io.github.verlinkt.NewSurvivalGames.NewSurvivalGames
+version: dev0.1
+
+commands:
+   sg:
+      description: Basic Command.
+      usage: /<command>
+      alias:
+      - nsg
+      - survivalgames
+      - newsurvivalgames
+      permission: NewSurvivalGames.sg
+      permission-message: You don't have permission to execute this command!
